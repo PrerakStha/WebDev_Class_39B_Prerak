@@ -1,0 +1,211 @@
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 40px;
+        }
+
+        header {
+            background-color: #1e293b;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header h2 {
+            margin: 10px 0 20px 0;
+            font-size: 1.3rem;
+            color: #94a3b8;
+            font-weight: 400;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #38bdf8;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: color 0.2s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #7dd3fc;
+        }
+
+
+        h3 {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        #introduction {
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .bio-text {
+            text-align: justify;
+        }
+
+        
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .image-container img {
+            max-width: 250px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .image-container figcaption {
+            margin-top: 10px;
+            font-weight: 600;
+            color: #475569;
+        }
+
+        /* Experience Section (Alternating Font Weights) */
+        .experience-list {
+            padding-left: 20px;
+        }
+
+        .experience-list li:nth-child(odd) {
+            font-weight: 300;
+        }
+
+        .experience-list li:nth-child(even) {
+            font-weight: 700;
+        }
+
+        /* Skills Table Styling */
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .skills-table th,
+        .skills-table td {
+            padding: 12px 20px;
+            text-align: left;
+        }
+
+        .skills-table th {
+            background-color: #0f172a;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+        }
+
+        .skills-table tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        .skills-table tr:hover {
+            background-color: #f1f5f9;
+        }
+
+        /* Projects Section */
+        .projects-list {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .projects-list li {
+            margin-bottom: 8px;
+        }
+
+        /* Video Section */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .video-container iframe {
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            max-width: 100%;
+        }
+
+        /* Form Styling */
+        .contact-form {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group select {
+            padding: 10px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        .form-group-inline {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .form-group-inline label {
+            font-weight: normal;
+        }
+
+        .submit-btn {
+            background-color: #1e293b;
+            color: #ffffff;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .submit-btn:hover {
+            background-color: #334155;
+        }

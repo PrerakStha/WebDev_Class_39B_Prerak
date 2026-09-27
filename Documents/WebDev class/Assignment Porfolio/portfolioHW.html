@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML assignment</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Prerak Shrestha</h1>
+        <h2>Chief Executive Officer</h2>
+        <nav>
+            <a href="#introduction">Introduction</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#video">Video</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Introduction Section -->
+        <h3 id="introduction">Introduction</h3>
+        <p class="bio-text">
+            Prerak Shrestha is a Chief Executive Officer in <b>XYZ company</b> who has spent over
+            <u>17 years</u> building companies from the ground up. He holds a master's degree in
+            <i>Artificial Intelligence and Machine learning</i>. His work has been published in the
+            <em>Himalayan Times</em> and he is also regarded as one of Nepal's most <strong>Dedicated entrepreneurs</strong>.
+            His net worth is measured in NPR <sub>millions</sub> per quarter, though he jokes it almost feels like NPR
+            <sup>billions</sup>. In the end, <mark>he wants to grow even more.</mark>
+        </p>
+
+        <!-- Image Section -->
+        <figure class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxDSMkdIExpGLqdHWxgE38QgUjCvnXGMuxqwPqAnN4A&s"
+                alt="Prerak Shrestha">
+            <figcaption>I'm pretty</figcaption>
+        </figure>
+
+        <!-- Experience Section -->
+        <h3 id="experience">Experience</h3>
+        <ol class="experience-list">
+            <li>CEO, XYZ company (2014-Present)</li>
+            <li>Head of operations, Bablu's office (2012-2014)</li>
+            <li>Junior Associate, Khairey International Co. (2008-2011)</li>
+        </ol>
+
+        <!-- Skills Section -->
+        <h3 id="skills">Skills</h3>
+        <table class="skills-table">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Years</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Leadership</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Negotiation</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Software Engineering</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Projects Section -->
+        <h3 id="projects">Projects</h3>
+        <ul class="projects-list">
+            <li>Release the main subscription-based software product for XYZ company</li>
+            <li>Launched XYZ company into 3 new districts</li>
+            <li>Real-time chat app using Socket</li>
+        </ul>
+
+        <!-- Video Section -->
+        <h3 id="video">Video</h3>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wTVJUyessE8" title="Extra Beef"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- Contact Form Section -->
+        <h3 id="contact">Contact</h3>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="form-group-inline">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="role">Role</label>
+                <select id="role" name="role">
+                    <option value="" disabled selected>Select a role</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="manager">Manager</option>
+                    <option value="client">Client</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
